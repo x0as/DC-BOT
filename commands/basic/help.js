@@ -132,7 +132,6 @@ module.exports = {
                         `\`💻\` **Prefix Commands:** ${Object.values(config.excessCommands).some(v => v) ? '`Enabled`' : '`Disabled`'}`,
                         '',
                     ].join('\n'),
-                    author: { name: 'ALL IN ONE BOT • COMMAND CENTER' },
                     icon: '📚' // Safe icon for dropdown
                 });
 
