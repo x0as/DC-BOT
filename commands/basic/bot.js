@@ -80,10 +80,6 @@ module.exports = {
                 ➡️ **${lang.supportDescriptionTitle}:**
                 - ${lang.discord} - ${supportServerLink}
                 
-                ➡️ **${lang.followUsOn}:**
-                - ${lang.github} - ${githubLink}
-                - ${lang.replit} - ${replitLink}
-                - ${lang.youtube} - ${youtubeLink}
             `)
             .setImage(lang.supportImageURL)
             .setTimestamp();
@@ -102,7 +98,7 @@ module.exports = {
         .setAuthor({ 
           name: lang.inviteTitle, 
           iconURL: cmdIcons.rippleIcon,
-          url: "https://discord.gg/BByHGYEh" 
+          url: "https://discord.gg/8jrK36Txea" 
         })
         .setDescription(lang.inviteDescription.replace('{inviteURL}', inviteURL))
         .setTimestamp();
