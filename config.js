@@ -1,3 +1,5 @@
+const { ActivityType } = require('discord.js');
+
 module.exports = {
   ownerId: '843061674378002453',
   status: {
