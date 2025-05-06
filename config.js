@@ -2,7 +2,7 @@ module.exports = {
   ownerId: '843061674378002453',
   status: {
     rotateDefault: [
-      { name: 'Students', type: ActivityType.helping },
+      { name: 'Students work', type: ActivityType.watching },
       { name: 'Fortnite', type: ActivityType.Playing },
       { name: 'on YouTube', type: ActivityType.Streaming, url: 'https://www.youtube.com/@ajirotech' },
       { name: 'to xcho_', type: ActivityType.Listening },
